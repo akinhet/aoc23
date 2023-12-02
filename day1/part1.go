@@ -7,7 +7,7 @@ import (
 	"os"
 )
 
-func main() {
+func Part1() {
 	file, err := os.Open("input")
 	if err != nil {
 		log.Fatal(err)
