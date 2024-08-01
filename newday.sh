@@ -32,8 +32,8 @@ func Parse(f string) {
 
 
 func Part1() {
-	f, err := os.ReadFile("input")
-	//f, err := os.ReadFile("testinput")
+	//f, err := os.ReadFile("input")
+	f, err := os.ReadFile("testinput")
     if err != nil {
 		log.Fatal("error opening file: ", err)
     }
@@ -52,8 +52,8 @@ import (
 
 
 func Part2() {
-	f, err := os.ReadFile("input")
-	//f, err := os.ReadFile("testinput")
+	//f, err := os.ReadFile("input")
+	f, err := os.ReadFile("testinput")
     if err != nil {
 		log.Fatal("error opening file: ", err)
     }
